@@ -4,7 +4,7 @@ const menu = document.querySelector('.menu');
 const head2 = document.querySelector('.head-2');
 const head = document.querySelector('.head');
 const belowhead = document.querySelector('below-head');
-console.log(belowhead);
+
 navBtn.addEventListener('click',()=>{
   head2.classList.toggle('active');
   head.classList.toggle('active');
